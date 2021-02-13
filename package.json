@@ -1,0 +1,15 @@
+{
+  "name": "celluler",
+  "version": "0.1.0",
+  "description": "Open source microservice headless CMS",
+  "main": "index.js",
+  "repository": "git@github.com:celluler/celluler.git",
+  "author": "Luc <luc@ltv.vn>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
