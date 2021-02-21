@@ -1,0 +1,20 @@
+{
+  "name": "celluler",
+  "version": "0.1.0",
+  "description": "celluler",
+  "main": "./lib",
+  "repository": "https://github.com/celluler/celluler.git",
+  "author": "Luc <luc@ltv.vn>",
+  "license": "MIT",
+  "private": true,
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "lodash": "^4.17.20",
+    "resolve-cwd": "^3.0.0"
+  }
+}
