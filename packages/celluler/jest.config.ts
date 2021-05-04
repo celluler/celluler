@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /*
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/en/configuration.html
@@ -20,19 +21,16 @@ export default {
   // collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  collectCoverageFrom: ["src/*.{js,ts}"],
+  collectCoverageFrom: ['src/*.{js,ts}'],
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
-  coveragePathIgnorePatterns: [
-    "/node_modules/",
-    "/tests"
-  ],
+  coveragePathIgnorePatterns: ['/node_modules/', '/tests'],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
+  coverageProvider: 'v8',
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -48,8 +46,8 @@ export default {
       branches: 90,
       functions: 95,
       lines: 95,
-      statements: 95
-    }
+      statements: 95,
+    },
   },
 
   // A path to a custom dependency extractor
@@ -79,11 +77,7 @@ export default {
   // ],
 
   // An array of file extensions your modules use
-  moduleFileExtensions: [
-    "ts",
-    "tsx",
-    "js"
-  ],
+  moduleFileExtensions: ['ts', 'tsx', 'js'],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   // moduleNameMapper: {},
@@ -142,7 +136,7 @@ export default {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
+  testEnvironment: 'node',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -162,7 +156,7 @@ export default {
   // ],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
-  testRegex: "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  testRegex: '(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$',
 
   // This option allows the use of a custom results processor
   // testResultsProcessor: undefined,
@@ -178,7 +172,7 @@ export default {
 
   // A map from regular expressions to paths to transformers
   transform: {
-    ".(ts|tsx)": "ts-jest"
+    '.(ts|tsx)': 'ts-jest',
   },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation

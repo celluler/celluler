@@ -1,0 +1,10 @@
+{
+  "parser": "typescript",
+  "useTabs": false,
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 100
+}

@@ -1,5 +1,4 @@
 {
-  "cSpell.words": [
-    "celluler"
-  ]
+  "cSpell.words": ["celluler"],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
